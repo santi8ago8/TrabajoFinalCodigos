@@ -1,0 +1,14 @@
+extends layout
+
+block content
+    script(src='/javascripts/jquery.min.js')
+    script(src='/javascripts/socket.io.min.js')
+    script(src='/javascripts/socket-cliente.js')
+    h1= title
+    p Welcome to #{title}
+    if (nombre)
+        input(type='hidden',name='nombre',value= nombre)
+        .usuarios
+    else
+        form(method='post',action='/')
+            input(type='text',name='nombreIngreso',placeholder='tu nombre aqui')

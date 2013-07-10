@@ -1,0 +1,14 @@
+{
+  "name": "application-name",    // 1
+  "version": "0.0.1",            // 2
+  "private": true,               // 3
+  "scripts": {                   // 4
+    "start": "node app" ,        // 5
+    "start": "node sockets.js"   // 6
+  },
+  "dependencies": {              // 7
+    "express": "3.1.0",          // 8
+    "jade": "*",                 // 9
+    "mongoose":"*"               // 10
+  }
+}

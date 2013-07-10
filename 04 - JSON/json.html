@@ -1,0 +1,21 @@
+<script>
+var persona={
+	"nombres":["juan","gonzalo"],
+	"apellidos":["perez","gomez"],
+	"edad":19,
+	"activo":true,
+	"materiasaprobadas":[
+		{"nombre":"Matematica","nota":10},
+		{"nombre":"Lengua","nota":9},
+		{"nombre":"Ingles","nota":7}
+	]
+};
+
+document.write(persona.nombres+"<br>");
+
+for (i in persona.materiasaprobadas){
+	materia = persona.materiasaprobadas[i];
+	document.write(materia.nombre + " " + materia.nota + "<br>");
+}
+
+</script>

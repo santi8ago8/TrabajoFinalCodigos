@@ -1,0 +1,6 @@
+h1{border:2px solid #00f}
+.texto p{font-family:Arial}
+.texto ul li{background-color:#000;color:#fff}
+.publicacion{-webkit-border-radius:3px;-moz-border-radius:3px;-o-border-radius:3px;border-radius:3px;border:1px solid #000}
+p.like{font-size:.5em;-webkit-border-radius:3px;-moz-border-radius:3px;-o-border-radius:3px;border-radius:3px;border:1px solid #000}
+h3{font-size:.5em}

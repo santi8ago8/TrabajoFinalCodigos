@@ -1,0 +1,12 @@
+extends layout
+
+block content
+    h1= title
+    p Welcome to #{title}
+    ul
+    if personas.length>0
+        each p in personas
+            li ID: #{p.id} NOMBRE: #{p.nombre} APELLIDO: #{p.apellido}
+    else
+        li No se encontraron personas
+

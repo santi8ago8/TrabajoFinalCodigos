@@ -1,0 +1,30 @@
+h1
+    border 2px solid blue
+
+.texto
+    p
+        font-family Arial
+    ul
+        li
+            background-color black
+            color white
+
+vendor(prop,args)
+    -webkit-{prop} args
+    -moz-{prop} args
+    -o-{prop} args
+    {prop} args
+
+.publicacion
+    vendor('border-radius', 3px)
+    border 1px solid black
+
+tamanio_fuente = 0.5em
+
+p.like
+    font-size tamanio_fuente
+    vendor('border-radius', 3px)
+    border 1px solid black
+
+h3
+    font-size tamanio_fuente

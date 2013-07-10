@@ -1,0 +1,24 @@
+-var youAreUsingJade=true;
+-var nombre='juan'
+
+-var amigos=['foo','bar','foobar','baz']
+
+-var parientes={madre:'Emma',padre:'Diego',hermano:'Pedro'}
+
+if youAreUsingJade
+    p You are amazing #{nombre}!
+else
+    p Get on it!
+p tus amigos:
+ul
+    for amigo in amigos
+        li=amigo
+p tus parientes:
+ul
+    for i,key in parientes
+        li Pariente: #{i}, parentesco: #{key}
+p imprimir 3 veces:
+    -var c=1;
+    while c<=3
+        p Impresión: #{c}
+        -c++
